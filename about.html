@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>About Sammy Worx</title>
+</head>
+<body>
+  <div class="page-wrapper">
+    <header>
+      <div class="header-content">
+        <h1>SAMMY WORX PRINTS & DESIGN</h1>
+        <sub><i><u>"Best in the game"</u></i></sub>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+        <nav id="nav-menu">
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="centered-container">
+        <div class="container">
+          <h2>About Us</h2>
+          <p>Sammy Worx Prints & Designs is dedicated to providing you with all kinds of prints, tailored to your needs and delivered with precision.</p>
+
+          <h3>Our Mission</h3>
+          <p>We aim to publish, advertise, and display information that reaches every sector for consumer satisfaction and visual impact.</p>
+        </div>
+
+        <div class="container">
+          <h4>What We Print:</h4>
+          <ul>
+            <li>All print formats: A2, A3, A4, B5, B6, etc.</li>
+            <li>T-shirts</li>
+            <li>Uniform Labelling</li>
+            <li>Logo Design</li>
+            <li>Certificates</li>
+            <li>Business Cards</li>
+            <li>Receipt Books</li>
+            <li>Banners (small and large formats)</li>
+            <li>Brochures</li>
+            <li>Report Cards</li>
+            <li>And more…</li>
+          </ul>
+        </div>
+
+        <div class="image-row">
+          <img src="brand1.jpg" alt="About Us" style="width: 100px;height: 100px;">
+          <p class="caption">Our creative workspace</p>
+          <img src="brand6.jpg" alt="About Us" style="width: 100px;height: 100px;">
+          <p class="caption">Our creative workspace</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Copyright<br>Best in the Game | All rights reserved</p>
+    </footer>
+
+    <script>
+      const toggle = document.getElementById('menu-toggle');
+      const navMenu = document.getElementById('nav-menu');
+      toggle.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+      });
+    </script>
+  </div>
+</body>
+</html>

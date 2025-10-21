@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Contact Sammy Worx</title>
+</head>
+<body>
+  <div class="page-wrapper">
+    <header>
+      <div class="header-content">
+        <h1>SAMMY WORX PRINTS & DESIGN</h1>
+        <sub><i><u>"Best in the game"</u></i></sub>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+        <nav id="nav-menu">
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="centered-container">
+        <section class="contact-form">
+          <h2>Contact Us</h2>
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="e.g sammy9@gmail.com" required />
+
+            <label for="telephone">Telephone:</label>
+            <input type="tel" id="telephone" name="telephone" placeholder="Enter your telephone" required />
+
+            <label for="message">Short message about us:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+
+            <input type="submit" value="Send Message" />
+          </form>
+        </section>
+
+        <section class="contact-info">
+          <center>  <u><h3>Contact Information</h3></u>
+          <p><strong>Email:</strong> samueltendo4@gmail.com</p>
+          <p><strong>Phone:</strong> (256) 708 201 655</p>
+          <p><strong>Location:</strong> Kisoga town, 51km from Mukono-Wantoni roundabout, Uganda</p> 
+          </center>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Copyright<br>Best in the Game | All rights reserved</p> 
+    </footer>
+
+    <script>
+      const toggle = document.getElementById('menu-toggle');
+      const navMenu = document.getElementById('nav-menu');
+      toggle.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+      });
+    </script>
+  </div>
+</body>
+</html>

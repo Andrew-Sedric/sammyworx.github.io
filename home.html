@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Sammy Worx Home Page</title>
+</head>
+<body>
+  <div class="page-wrapper">
+    <header>
+      <div class="image-row">
+          <div class="image-card">
+            <img src="home.jpg" alt="Studio Location">
+            <p>Car stickers.</p>
+          </div>
+      <div class="header-content">
+        <h1 style="font-family:Tahoma;font-size:300%; color:blue;">SAMMY WORX<br> PRINTS & DESIGN</h1>
+        <h1><i><u>"Best in the game"</u></i></h1>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+        <nav id="nav-menu">
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="centered-container">
+        <h2>Welcome to Sammy Worx Prints & Designs!</h2>
+        <p>Your number one graphics designer plug.</p>
+
+        <div class="image-row">
+          <div class="image-card">
+            <img src="brand5.jpg" alt="Studio Location" style="--i:0">
+            <p>Car stickers.</p>
+          </div>
+          <div class="image-card">
+            <img src="brand2.jpg" alt="Design Sample" style="--i:1">
+            <p>Design Sample</p>
+          </div>
+          <div class="image-card">
+            <img src="brand3.jpg" alt="Client Project" style="--i:2">
+            <p>Client Project</p>
+          </div>
+        </div>
+
+        <p><strong>Learn more about Sammy Worx Prints & Designs <a href="about.html"><mark>here</mark></a>.</strong></p>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Copyright<br>Best in the Game | All rights reserved</p>
+    </footer>
+  </div>
+
+  <script>
+    const toggle = document.getElementById('menu-toggle');
+    const navMenu = document.getElementById('nav-menu');
+    toggle.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
